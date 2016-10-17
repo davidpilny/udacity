@@ -13822,7 +13822,7 @@ f84DjO/AERX9AAAAAElFTkSuQmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
-<p>This technique allows us to maximize the number of testing data within one data set. We divide the data set into k same sized buckets and run k trainings using a different bucket as a testing set each time.</p>
+<p>This technique allows us to maximize the number of testing data within one data set. We divide the data set into k same sized buckets and run k trainings using a different bucket as a testing set each time. Then we compute the average score of those result as a final score.</p>
 <p>Without a cross-validation we could end up with a model that is trained for a specific dataset but unable to perform well on an unseen data. With having multiple runs we can make sure that our testing data is not biased and that the testing data is random.</p>
 
 </div>
